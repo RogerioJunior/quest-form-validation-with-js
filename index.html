@@ -18,24 +18,24 @@
 <body>
     <main>
         <section class="info">
-            <h1 class="title">Ficou com Dúvida? Nos mande uma mensagem!</h1>
+            <h1 class="title">Ficou com Dúvida? <br> Nos mande uma mensagem!</h1>
             <p class="info-text">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato
                 em menos de 24h.</p>
         </section>
 
-        <form action="index.html" method="get" enctype="multipart/form-data">
+        <form  class="form" action="index.html" method="get" enctype="multipart/form-data">
 
-            <input type="text" name="name" id="name" placeholder="Nome Completo *">
+            <input type="text" class="input-text" name="name" id="name" placeholder="Nome Completo *">
 
-            <input type="text" name="email" id="email" placeholder="Email *">
+            <input type="text" class="input-text" name="email" id="email" placeholder="Email *">
     
-            <input type="text" name="phone" id="phone" placeholder="Telefone *">
+            <input type="text" class="input-text" name="phone" id="phone" placeholder="Telefone *">
 
-            <input type="text" name="message" id="message" placeholder="Mensagem *">
+            <textarea class="input-text"  name="message" id="message" cols="30" rows="10" placeholder="Mensagem *"></textarea>
 
-            <p class="form-text">*Campos obrigatórios</p>
+            <p class="form-text">*campos obrigatórios</p>
 
-            <input type="submit" value="Enviar">
+            <button class="input-btn" type="button">Enviar</button>
         </form>
     </main>
 

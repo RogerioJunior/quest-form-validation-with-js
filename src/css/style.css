@@ -1,0 +1,75 @@
+html {
+    background-image: url(../images/bg-repeat.jpg);
+    background-size: contain;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.info {
+    padding-left: 50px;
+    padding-right: 72px;
+}
+
+
+.info .title {
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 23px;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+}
+
+.info .info-text {
+    font-size: 1.5rem;
+    line-height: 18px;
+    color: #FFFFFF;
+    max-width: 300px;
+}
+
+.form {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    min-height: 378px;
+    min-width: 340px;
+    padding: 20px;
+}
+
+.form .input-text {
+    margin-bottom: 15px;
+    height: 35px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+
+.form #message {
+    height: 100px;
+    margin-bottom: 6px;
+    resize: none;
+}
+
+.form .form-text {
+    font-size: 1.2rem;
+    line-height: 18px;
+}
+
+.form .input-btn {
+    height: 41px;
+    margin-top: 20px;
+    background: #3CCC87;
+    border: 1px solid #3CCC87;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    cursor: pointer;
+}
