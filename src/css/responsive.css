@@ -1,0 +1,25 @@
+@media (max-width: 688px) {
+    .form {
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    main {
+        flex-direction: column;
+    }
+
+    .info .title {
+        margin-bottom: 20px;
+    }
+
+    .info .info-text {
+        margin-bottom: 40px;
+    }
+
+    .form {
+        min-width: 310px;
+        margin:  0 auto;
+    }
+}
