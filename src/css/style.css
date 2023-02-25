@@ -43,11 +43,15 @@ main {
 }
 
 .form .input-text {
-    margin-bottom: 15px;
+    
     height: 35px;
     border: 1px solid #000000;
     border-radius: 5px;
     padding: 8px 10px;
+}
+
+span {
+    margin-bottom: 15px;
 }
 
 .form #message {
@@ -56,12 +60,27 @@ main {
     resize: none;
 }
 
+.form .input-text.checked {
+    border: 1px solid #3CCC87;
+}
+
+.form .input-text.no-checked {
+    border: 1px solid red;
+}
+
+.form .input-text.no-checked+span::after{    
+    color: red;
+    content: "campo obrigatório";
+    font-size: 1rem;
+
+}
+
 .form .form-text {
     font-size: 1.2rem;
     line-height: 18px;
 }
 
-.form .input-btn {
+.form #input-btn {
     height: 41px;
     margin-top: 20px;
     background: #3CCC87;
